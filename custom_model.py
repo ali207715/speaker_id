@@ -18,7 +18,6 @@ from speechbrain.nnet.pooling import StatisticsPooling
 from speechbrain.nnet.CNN import Conv1d
 from speechbrain.nnet.linear import Linear
 from speechbrain.nnet.normalization import BatchNorm1d
-from templates.speaker_id.ResNet.resnet import resnet74
 
 class Xvector(torch.nn.Module):
     """This model extracts X-vectors for speaker recognition
